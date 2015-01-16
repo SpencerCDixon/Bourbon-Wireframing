@@ -1,0 +1,10 @@
+.container {
+  @include outer-container;
+}
+
+.column-6 {
+  @include span-columns(6);
+  background: gray;
+  height: 400px;
+
+}
